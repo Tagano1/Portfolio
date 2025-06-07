@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const a_list = Array.from(document.querySelectorAll("main a"));
+    const a_list = Array.from(document.querySelectorAll("main>a"));
     const arrowL = document.getElementById("arrowL");
     const arrowR = document.getElementById("arrowR");
     let isAnimating = false;
